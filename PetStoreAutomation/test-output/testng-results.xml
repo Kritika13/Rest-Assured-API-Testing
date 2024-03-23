@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-23T18:50:28 GMT" name="Default suite" finished-at="2024-03-23T18:50:32 GMT" duration-ms="4065">
+    <groups>
+    </groups>
+    <test started-at="2024-03-23T18:50:28 GMT" name="Default test" finished-at="2024-03-23T18:50:32 GMT" duration-ms="4065">
+      <class name="api.test.UserTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTest@6973b51b]" started-at="2024-03-23T18:50:28 GMT" name="setupData" finished-at="2024-03-23T18:50:28 GMT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTest@6973b51b]" started-at="2024-03-23T18:50:28 GMT" name="testPostUser" finished-at="2024-03-23T18:50:30 GMT" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTest@6973b51b]" started-at="2024-03-23T18:50:30 GMT" name="testGetUserByName" finished-at="2024-03-23T18:50:30 GMT" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTest@6973b51b]" started-at="2024-03-23T18:50:30 GMT" name="testUpdateUserByName" finished-at="2024-03-23T18:50:32 GMT" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTest@6973b51b]" started-at="2024-03-23T18:50:32 GMT" name="testDeleteUserByName" finished-at="2024-03-23T18:50:32 GMT" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
